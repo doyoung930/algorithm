@@ -18,6 +18,9 @@
     <ClCompile Include="ConsoleHelper.cpp">
       <Filter>Board</Filter>
     </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -28,6 +31,9 @@
     </ClInclude>
     <ClInclude Include="Types.h">
       <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Board</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

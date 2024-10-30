@@ -22,18 +22,7 @@ int main() {
 		// 렌더링
 
 
-		ConsoleHelper::SetCursorPosition(0, 0);
-		ConsoleHelper::ShowConsoleCursor(false);
-		ConsoleHelper::SetCursonColor(ConsoleColor::RED);
 
-		const char* TILE = "■";
-
-		for (int32 y = 0; y < 25; y++) {
-			for (int32 x = 0; x < 25; x++) {
-				cout << TILE;
-			}
-			cout << endl;
-		}
 
 		
 	}

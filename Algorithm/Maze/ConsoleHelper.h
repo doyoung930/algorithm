@@ -17,7 +17,7 @@ class ConsoleHelper
 {
 public:
 	static void SetCursorPosition(int32 x, int32 y);
-	static void SetCursonColor(ConsoleColor color);
+	static void SetCursorColor(ConsoleColor color);
 	static void ShowConsoleCursor(bool flag);
 };
 

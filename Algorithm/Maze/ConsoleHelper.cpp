@@ -9,7 +9,7 @@ void ConsoleHelper::SetCursorPosition(int32 x, int32 y)
 	::SetConsoleCursorPosition(output, pos);
 }
 
-void ConsoleHelper::SetCursonColor(ConsoleColor color)
+void ConsoleHelper::SetCursorColor(ConsoleColor color)
 {
 	HANDLE output = ::GetStdHandle(STD_OUTPUT_HANDLE);
 	::SetConsoleTextAttribute(output, static_cast<int16>(color));

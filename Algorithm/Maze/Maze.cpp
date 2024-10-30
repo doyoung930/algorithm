@@ -1,9 +1,13 @@
 ﻿#include "pch.h"
 #include <iostream>
 #include "ConsoleHelper.h"
+#include "Board.h"
+
+Board board;
+
 
 int main() {
-
+	board.Init(25);
 	uint64 lastTick = 0;
 	while (true) {
 
@@ -20,7 +24,7 @@ int main() {
 		// 로직
 
 		// 렌더링
-
+		board.Render();
 
 
 

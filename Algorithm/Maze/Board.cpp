@@ -56,6 +56,7 @@ TileType Board::GetTileType(Pos pos)
 	if (pos.y <0 || pos.y >= _size)
 		return TileType::NONE;
 
+	return _tile[pos.y][pos.x];
 }
 
 ConsoleColor Board::GetTileColor(Pos pos)

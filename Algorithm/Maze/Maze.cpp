@@ -2,12 +2,17 @@
 #include <iostream>
 #include "ConsoleHelper.h"
 #include "Board.h"
-
+#include "Player.h"
 Board board;
-
+Player player;
 
 int main() {
-	board.Init(25);
+
+	::srand(static_cast<unsigned>(time(nullptr)));
+
+	board.Init(25, &player);
+	player.Init(&board);
+
 	uint64 lastTick = 0;
 	while (true) {
 
@@ -22,13 +27,9 @@ int main() {
 		// 입력
 
 		// 로직
-
+		player.Update(deltaTick);
 		// 렌더링
 		board.Render();
-
-
-
-		
 	}
 
 }

@@ -34,6 +34,7 @@ void Board::Render()
 		}
 		cout << endl;
 	}
+	
 }
 
 

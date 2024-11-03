@@ -18,6 +18,10 @@ public:
 
 	bool		CanGo(Pos pos);
 private:
+	void		RightHand();
+	void		Bfs();
+
+private:
 	Pos			_pos = {};
 	int32		_dir = DIR_UP;
 	Board*		_board = nullptr;

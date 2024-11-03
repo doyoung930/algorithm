@@ -76,7 +76,14 @@ private:
 
 int main()
 {
-	Vector<int> v;
+	vector<int> v;
+
+	v.resize(10);
+	cout << v.size() << " " << v.capacity() << endl;
+	v.reserve(100);
+	cout << v.size() << " " << v.capacity() << endl;
+
+
 	for (int i = 0; i < 100; i++) {
 		v.push_back(i);
 		cout << v.size() << " " << v.capacity() << endl;

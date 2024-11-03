@@ -13,19 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1.Container">
+      <UniqueIdentifier>{e79a3d07-32d6-4de4-ba8b-77bff3dad609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Graph">
+      <UniqueIdentifier>{ff766b08-6f65-4b13-a397-a1ee6cd3b448}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="List.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Stack.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>소스 파일\1.Container</Filter>
+    </ClCompile>
     <ClCompile Include="Queue.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1.Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>소스 파일\1.Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

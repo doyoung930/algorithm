@@ -96,4 +96,5 @@ void Dijikstra(int here)
 int main()
 {
 	CreateGraph();	// 그래프 그리기
+	Dijikstra(0);
 }

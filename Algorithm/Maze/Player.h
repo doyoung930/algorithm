@@ -17,17 +17,18 @@ public:
 	Pos			GetPos() { return _pos; }
 
 	bool		CanGo(Pos pos);
+
 private:
 	void		RightHand();
 	void		Bfs();
+	void		AStar();
 
 private:
 	Pos			_pos = {};
 	int32		_dir = DIR_UP;
-	Board*		_board = nullptr;
+	Board* _board = nullptr;
 
-	vector<Pos> _path;
-
+	vector<Pos>	_path;
 	uint32		_pathIndex = 0;
 	uint64		_sumTick = 0;
 };

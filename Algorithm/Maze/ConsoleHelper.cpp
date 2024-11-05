@@ -1,5 +1,4 @@
 #include "pch.h"
-
 #include "ConsoleHelper.h"
 
 void ConsoleHelper::SetCursorPosition(int32 x, int32 y)
@@ -18,8 +17,8 @@ void ConsoleHelper::SetCursorColor(ConsoleColor color)
 void ConsoleHelper::ShowConsoleCursor(bool flag)
 {
 	HANDLE output = ::GetStdHandle(STD_OUTPUT_HANDLE);
-	CONSOLE_CURSOR_INFO cusorInfo;
-	::GetConsoleCursorInfo(output, &cusorInfo);
-	cusorInfo.bVisible = flag;
-	::SetConsoleCursorInfo(output, &cusorInfo);
+	CONSOLE_CURSOR_INFO cursorInfo;
+	::GetConsoleCursorInfo(output, &cursorInfo);
+	cursorInfo.bVisible = flag;
+	::SetConsoleCursorInfo(output, &cursorInfo);
 }

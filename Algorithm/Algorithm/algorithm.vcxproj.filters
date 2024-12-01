@@ -60,7 +60,10 @@
     <ClCompile Include="2)HeapTree.cpp">
       <Filter>소스 파일\트리</Filter>
     </ClCompile>
-    <ClCompile Include="1)정렬.cpp">
+    <ClCompile Include="1%29 Sort.cpp">
+      <Filter>소스 파일\3.Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="2) Sort.cpp">
       <Filter>소스 파일\3.Sort</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\트리">
       <UniqueIdentifier>{4eaa496d-616c-44b3-bca8-a4cdc0332beb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3.Sort">
+      <UniqueIdentifier>{7a6c557e-292c-4632-a3d7-2ffc0a0a5189}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="2)HeapTree.cpp">
       <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="1)정렬.cpp">
+      <Filter>소스 파일\3.Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

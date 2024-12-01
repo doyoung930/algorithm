@@ -19,10 +19,10 @@
     <Filter Include="소스 파일\2.Graph">
       <UniqueIdentifier>{ff766b08-6f65-4b13-a397-a1ee6cd3b448}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\트리">
+    <Filter Include="소스 파일\3.트리">
       <UniqueIdentifier>{4eaa496d-616c-44b3-bca8-a4cdc0332beb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\3.Sort">
+    <Filter Include="소스 파일\4.Sort">
       <UniqueIdentifier>{7a6c557e-292c-4632-a3d7-2ffc0a0a5189}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -30,41 +30,32 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
+    <ClCompile Include="1%29 List.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
-    <ClCompile Include="Queue.cpp">
+    <ClCompile Include="2%29 Queue.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
+    <ClCompile Include="3%29 Stack.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
-    <ClCompile Include="1%29Graph.cpp">
+    <ClCompile Include="5%29Graph.cpp">
       <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
-    <ClCompile Include="Vector.cpp">
+    <ClCompile Include="4%29 Vector.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
-    <ClCompile Include="2%29DFS.cpp">
+    <ClCompile Include="6%29DFS.cpp">
       <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
-    <ClCompile Include="3%29BFS.cpp">
+    <ClCompile Include="7%29BFS.cpp">
       <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
-    <ClCompile Include="4%29Dijkstra.cpp">
+    <ClCompile Include="8%29Dijkstra.cpp">
       <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
-    <ClCompile Include="1)Tree.cpp">
-      <Filter>소스 파일\트리</Filter>
-    </ClCompile>
-    <ClCompile Include="2)HeapTree.cpp">
-      <Filter>소스 파일\트리</Filter>
-    </ClCompile>
-    <ClCompile Include="1%29 Sort.cpp">
-      <Filter>소스 파일\3.Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="2) Sort.cpp">
-      <Filter>소스 파일\3.Sort</Filter>
+    <ClCompile Include="11%29Sort.cpp">
+      <Filter>소스 파일\4.Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

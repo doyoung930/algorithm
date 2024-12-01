@@ -6,6 +6,8 @@
 
 using namespace std;
 
+
+
 // 정렬
 
 // 1) 버블 정렬 (Bubble sort)
@@ -107,6 +109,9 @@ void HeapSort(vector<int>& v) {
 // - 분할(Divide)	문제를 더 단순하게 분할한다.
 // - 정복(Conquer)	분할된 문제를 해결
 // - 결합(Combine)	결과를 취합하여 마무리
+
+// O(NlogN)
+
 void MergeResult(vector<int>& v, int left, int mid, int right) {
 
 	int leftIdx = left;
@@ -164,6 +169,40 @@ void MergeSort(vector<int>& v, int left, int right) {
 
 }
 
+// 퀵 Sort
+int Partition(vector<int>& v, int left, int right) {
+	int pivot = v[left];
+	int low = left + 1;
+	int high = right;
+
+	while (low <= high)
+	{
+		while (low <= right && pivot >= v[low])
+		{
+			low++;
+		}
+		while (high >= left + 1 && pivot <= v[high])
+		{
+			high--;
+		}
+		if (low < high)
+			swap(v[low], v[high]);
+	}
+
+	swap(v[left], v[high]);
+
+	return high;
+}
+void QuickSort(vector<int>& v, int left, int right) {
+	if (left > right)
+		return;
+
+	int pivot = Partition(v, left, right);
+
+	QuickSort(v, left, pivot - 1);
+	QuickSort(v, pivot + 1, right);
+}
+
 int main()
 {
 	vector<int> v;
@@ -181,5 +220,7 @@ int main()
 	// cout << v << endl;
 
 	//HeapSort(v);
-	MergeSort(v, 0, v.size() - 1);
+	//MergeSort(v, 0, v.size() - 1);
+	QuickSort(v, 0, v.size() - 1);
+	
 }

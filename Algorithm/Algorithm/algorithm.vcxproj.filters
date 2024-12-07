@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\4.Sort">
       <UniqueIdentifier>{7a6c557e-292c-4632-a3d7-2ffc0a0a5189}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\5.Hash">
+      <UniqueIdentifier>{4b48d14c-575b-4b71-a6b8-f1a4d7b5ec28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="11%29Sort.cpp">
       <Filter>소스 파일\4.Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>소스 파일\5.Hash</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -17,6 +17,8 @@ using namespace std;
 // - 추가 / 탐색 / 삭제 O(1)
 //
 
+// map 
+
 void TestHash() {
 	struct User {
 		int userid = 0;
@@ -41,7 +43,9 @@ void TestHash() {
 	}
 
 	// 충돌 문제 - key 값이 겹침
-
+	// 충돌이 발생한 자리를 대신해서 다른 빈자리를 찾아나서면 된다.
+	// - 선형 조사법
+	// - 이차 조사법
 }
 int main()
 {

@@ -17,7 +17,7 @@ void Player::Update(uint64 deltaTick)
 {
 	if (_pathIndex >= _path.size())
 	{
-		_board->GenerateMap();
+		_board->GenerateMap_Prim();
 		Init(_board);
 		return;
 	}

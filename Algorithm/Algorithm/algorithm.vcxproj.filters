@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\5.해시">
       <UniqueIdentifier>{4b48d14c-575b-4b71-a6b8-f1a4d7b5ec28}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7.DP">
+      <UniqueIdentifier>{d6d743cf-8538-4cfc-8447-6f5a6e67f3d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -71,6 +74,12 @@
     </ClCompile>
     <ClCompile Include="Kruskal.cpp">
       <Filter>소스 파일\6.최소 스패닝 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="LIS.cpp">
+      <Filter>소스 파일\7.DP</Filter>
+    </ClCompile>
+    <ClCompile Include="DP.cpp">
+      <Filter>소스 파일\7.DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

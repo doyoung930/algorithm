@@ -39,19 +39,19 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1%29 List.cpp">
+    <ClCompile Include="1%29List.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
-    <ClCompile Include="2%29 Queue.cpp">
+    <ClCompile Include="2%29Queue.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
-    <ClCompile Include="3%29 Stack.cpp">
+    <ClCompile Include="3%29Stack.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
     <ClCompile Include="5%29Graph.cpp">
       <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
-    <ClCompile Include="4%29 Vector.cpp">
+    <ClCompile Include="4%29Vector.cpp">
       <Filter>소스 파일\1.Container</Filter>
     </ClCompile>
     <ClCompile Include="6%29DFS.cpp">
@@ -63,22 +63,28 @@
     <ClCompile Include="8%29Dijkstra.cpp">
       <Filter>소스 파일\2.Graph</Filter>
     </ClCompile>
-    <ClCompile Include="11%29Sort.cpp">
+    <ClCompile Include="9%29Sort.cpp">
       <Filter>소스 파일\4.정렬</Filter>
     </ClCompile>
-    <ClCompile Include="HashTable.cpp">
+    <ClCompile Include="10%29HashTable.cpp">
       <Filter>소스 파일\5.해시</Filter>
     </ClCompile>
-    <ClCompile Include="DisjointSet.cpp">
+    <ClCompile Include="11%29DisjointSet.cpp">
       <Filter>소스 파일\6.최소 스패닝 트리</Filter>
     </ClCompile>
-    <ClCompile Include="Kruskal.cpp">
+    <ClCompile Include="12%29Kruskal.cpp">
       <Filter>소스 파일\6.최소 스패닝 트리</Filter>
     </ClCompile>
-    <ClCompile Include="LIS.cpp">
+    <ClCompile Include="14%29LIS.cpp">
       <Filter>소스 파일\7.DP</Filter>
     </ClCompile>
-    <ClCompile Include="DP.cpp">
+    <ClCompile Include="13%29DP.cpp">
+      <Filter>소스 파일\7.DP</Filter>
+    </ClCompile>
+    <ClCompile Include="15)Triangle_path.cpp">
+      <Filter>소스 파일\7.DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16)ENCHANT.cpp">
       <Filter>소스 파일\7.DP</Filter>
     </ClCompile>
   </ItemGroup>

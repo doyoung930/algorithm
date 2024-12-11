@@ -84,7 +84,10 @@
     <ClCompile Include="15)Triangle_path.cpp">
       <Filter>소스 파일\7.DP</Filter>
     </ClCompile>
-    <ClCompile Include="16)ENCHANT.cpp">
+    <ClCompile Include="17%29ENCHANT.cpp">
+      <Filter>소스 파일\7.DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16)Tic-Tae-Toe.cpp">
       <Filter>소스 파일\7.DP</Filter>
     </ClCompile>
   </ItemGroup>
